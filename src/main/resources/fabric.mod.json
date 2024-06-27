@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "birdbrain",
+	"version": "${version}",
+	"name": "BirdBrain",
+	"description": "If birds can find their heading, so can you.",
+	"authors": [
+		"Berringer"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/birdbrain/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+          "net.berringer.birdbrain.BirdbrainMod"
+		],
+		"client": [
+			"net.berringer.birdbrain.BirdbrainModClient"
+		]
+	},
+	"mixins": [
+		"birdbrain.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "1.21",
+		"java": "21",
+		"fabric": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

@@ -1,0 +1,9 @@
+{
+	"required": true,
+	"package": "net.berringer.birdbrain.mixin",
+	"compatibilityLevel": "JAVA_21",
+
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
